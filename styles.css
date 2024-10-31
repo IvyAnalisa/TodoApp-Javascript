@@ -1,0 +1,33 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        #todo-input {
+            width: 80%;
+            padding: 10px;
+        }
+        #add-todo {
+            padding: 10px 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+        }
+        .completed {
+            text-decoration: line-through;
+        }
+        #search {
+            margin-bottom: 20px;
+        }
